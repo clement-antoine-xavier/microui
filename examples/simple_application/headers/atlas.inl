@@ -1,3 +1,4 @@
+#include "microui.h"
 
 enum { ATLAS_WHITE = MU_ICON_MAX, ATLAS_FONT };
 enum { ATLAS_WIDTH = 128, ATLAS_HEIGHT = 128 };
@@ -889,7 +890,7 @@ static unsigned char atlas_texture[ATLAS_WIDTH * ATLAS_HEIGHT] = {
 };
 
 
-static mu_Rect atlas[] = {
+static mu_Rectangle atlas[] = {
   [ MU_ICON_CLOSE ] = { 88, 68, 16, 16 },
   [ MU_ICON_CHECK ] = { 0, 0, 18, 18 },
   [ MU_ICON_EXPANDED ] = { 118, 68, 7, 5 },
